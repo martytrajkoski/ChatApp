@@ -18,11 +18,11 @@ Follow these steps to set up and run the application:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/martytrajkoski/ChatApp-frontend.git
 ```
 3. Navigate into the project directory
 ```bash
-cd your-repo-name
+cd ChatApp-frontend
 ```
 5. Install dependencies
 Run the following command to install all the required dependencies:
