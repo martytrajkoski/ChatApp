@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+# Chat Application - Frontend
+## React + TypeScript + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project using TypeScript, powered by Vite for fast build and development.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure you have the following installed:
 
-## Expanding the ESLint configuration
+- **Node.js**: You can download the latest version from [here](https://nodejs.org/).
+- **npm**: This comes with Node.js. You can verify that it’s installed by running:
+  ```bash
+  node -v
+  npm -v
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
+Follow these steps to set up and run the application:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+3. Navigate into the project directory
+```bash
+cd your-repo-name
 ```
+5. Install dependencies
+Run the following command to install all the required dependencies:
+```bash
+npm install
+```
+4. Start the development server
+Run the command to start the Vite development server:
+```bash
+npm run dev
+```
+6. Open the application in your browser
+Once the server is running, you can access the application by visiting:
+[http://localhost:5173](http://localhost:5173)
